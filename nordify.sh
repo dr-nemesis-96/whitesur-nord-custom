@@ -7,7 +7,7 @@ wget https://github.com/dr-nemesis-96/whitesur-nord-custom/raw/main/whitesur-nor
 bsdtar -xf ./whitesur-nord-custom.tar.gz
 rm ./whitesur-nord-custom.tar.gz
 
-mkdir ~/.local/share/gnome-shell-extentions
+mkdir ~/.local/share/gnome-shell/extentions
 cd ~/.local/share/gnome-shell/extentions/
 wget https://github.com/dr-nemesis-96/whitesur-nord-custom/raw/main/extentions.tar.gz
 bsdtar -xf ./extentions.tar.gz
