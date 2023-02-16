@@ -73,7 +73,7 @@ enable-hot-corners=true
 font-antialiasing='rgba'
 font-hinting='full'
 font-name='Fira Sans 11'
-gtk-theme='WhiteSur-Dark-nord'
+gtk-theme='WhiteSur-Dark-nord-custom'
 icon-theme='Papirus-Dark'
 monospace-font-name='FiraCode Nerd Font Mono 10'
 
@@ -312,7 +312,7 @@ global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint3
 settings-version=uint32 5
 
 [org/gnome/shell/extensions/user-theme]
-name='WhiteSur-Dark-nord'
+name='WhiteSur-Dark-nord-custom'
 
 [org/gnome/shell/keybindings]
 switch-to-application-1=@as []
