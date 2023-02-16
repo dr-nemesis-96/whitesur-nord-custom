@@ -16,9 +16,9 @@ rm ./gnome-shell-extention-installer
 cd ~
 wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/whitesur-nord-custom
 #POP SHELL
-git clone https://github.com/pop-os/shell.git
-cd shell
-make local-install
+#git clone https://github.com/pop-os/shell.git
+#cd shell
+#make local-install
 #END OF POP SHELL
 dconf load / < whitesur-nord-custom
 rm ./whitesur-nord-custom
