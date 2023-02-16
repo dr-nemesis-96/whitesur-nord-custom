@@ -1,4 +1,4 @@
-sudo pacman -S --needed wget dconf
+sudo pacman -S --needed wget dconf sassc gtk-engines gtk-engine-murrine
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 sudo rm -rf /usr/share/gnome-shell/extensions/*
 mkdir ~/.themes
