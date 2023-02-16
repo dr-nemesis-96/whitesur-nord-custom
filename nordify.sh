@@ -8,11 +8,12 @@ bsdtar -xf ./whitesur-nord-custom.tar.gz
 rm ./whitesur-nord-custom.tar.gz
 
 # mkdir /usr/share/gnome-shell/extentions
-cd ~
+mkdir ~/extensions
+cd ~/extensions
 wget https://github.com/dr-nemesis-96/whitesur-nord-custom/raw/main/extentions.tar.gz
 bsdtar -xf ./extentions.tar.gz
-cp -R ./extentions /usr/share/gnome-shell/
 sudo rm ./extentions.tar.gz
+cp -R ~/extentions /usr/share/gnome-shell/
 
 cd ~
 wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/whitesur-nord-custom
