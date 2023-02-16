@@ -26,6 +26,6 @@ wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/w
 dconf load / < whitesur-nord-custom
 rm ./whitesur-nord-custom
 cd ~/Downloads
-wget https://github.com/dr-nemesis-96/whitesur-nord-custom/blob/main/10806048.jpg?raw=true
+wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/10806048.jpg
 gsettings set org.gnome.desktop.background picture-uri file:///$HOME/Downloads/10806048.jpg
 
