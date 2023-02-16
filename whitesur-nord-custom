@@ -1,0 +1,386 @@
+[org/freedesktop/Tracker/Extract]
+sched-idle='always'
+
+[org/freedesktop/Tracker/Miner/Files]
+index-on-battery=true
+sched-idle='always'
+
+[org/freedesktop/tracker/miner/files]
+index-recursive-directories=['&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '&DOWNLOAD']
+
+[org/gnome/control-center]
+last-panel='multitasking'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['accessories', 'games', 'office', 'system-tools']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/accessories]
+apps=['yad-icon-browser.desktop', 'de.haeckerfelix.Fragments.desktop']
+categories=['Utility']
+excluded-apps=['gnome-layouts.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Maps.desktop']
+name='Accessories'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/games]
+categories=['Game']
+name='Games'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/office]
+categories=['Office']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/system-tools]
+apps=['qvidcap.desktop', 'qv4l2.desktop', 'bssh.desktop', 'bvnc.desktop', 'hp-uiscan.desktop']
+categories=['System', 'Settings']
+name='System Tools'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/xero/.local/share/backgrounds/2023-02-13-10-56-08-10806048.jpg'
+picture-uri-dark='file:///home/xero/.local/share/backgrounds/2023-02-13-10-56-08-10806048.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+show-desktop-icons=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-show-date=false
+clock-show-weekday=true
+color-scheme='prefer-dark'
+cursor-theme='capitaine-cursors'
+document-font-name='Fira Sans 11'
+enable-animations=true
+enable-hot-corners=true
+font-antialiasing='rgba'
+font-hinting='full'
+font-name='Fira Sans 11'
+gtk-theme='WhiteSur-Dark-nord'
+icon-theme='Papirus-Dark'
+monospace-font-name='FiraCode Nerd Font Mono 10'
+
+[org/gnome/desktop/notifications]
+application-children=['discord', 'gnome-power-panel', 'org-qbittorrent-qbittorrent', 'com-usebottles-bottles', 'net-lutris-lutris', 'org-gnome-fileroller']
+
+[org/gnome/desktop/notifications/application/com-usebottles-bottles]
+application-id='com.usebottles.bottles.desktop'
+
+[org/gnome/desktop/notifications/application/discord]
+application-id='discord.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/net-lutris-lutris]
+application-id='net.lutris.Lutris.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/peripherals/touchpad]
+natural-scroll=false
+tap-and-drag=true
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 7
+recent-files-max-age=7
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+lock-delay=uint32 0
+picture-options='zoom'
+picture-uri='file:///home/xero/.local/share/backgrounds/2023-02-13-10-56-08-10806048.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Super>q']
+maximize=@as []
+minimize=@as []
+move-to-workspace-1=['<Shift><Super>1']
+move-to-workspace-10=['<Shift><Super>0']
+move-to-workspace-2=['<Shift><Super>2']
+move-to-workspace-3=['<Shift><Super>3']
+move-to-workspace-4=['<Shift><Super>4']
+move-to-workspace-5=['<Shift><Super>5']
+move-to-workspace-6=['<Shift><Super>6']
+move-to-workspace-7=['<Shift><Super>7']
+move-to-workspace-8=['<Shift><Super>8']
+move-to-workspace-9=['<Shift><Super>9']
+move-to-workspace-left=['<Super><Shift>Page_Up', '<Super><Shift><Alt>Left', '<Control><Shift><Alt>Left']
+move-to-workspace-right=['<Super><Shift>Page_Down', '<Super><Shift><Alt>Right', '<Control><Shift><Alt>Right']
+panel-main-menu=['<Alt>F1']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-10=['<Super>0']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-5=['<Super>5']
+switch-to-workspace-6=['<Super>6']
+switch-to-workspace-7=['<Super>7']
+switch-to-workspace-8=['<Super>8']
+switch-to-workspace-9=['<Super>9']
+switch-to-workspace-left=['<Super>Page_Up', '<Super><Alt>Left', '<Control><Alt>Left']
+switch-to-workspace-right=['<Super>Page_Down', '<Super><Alt>Right', '<Control><Alt>Right']
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+titlebar-font='Fira Sans Bold 11'
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/dialogs/new]
+default-extension='.tar.gz'
+encrypt-header=false
+expand-options=false
+volume-size=0
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=475
+window-width=600
+
+[org/gnome/gedit/plugins]
+active-plugins=['time', 'spell', 'sort', 'modelines', 'filebrowser', 'docinfo', 'codecomment', 'bracketcompletion']
+
+[org/gnome/gedit/preferences/editor]
+auto-indent=true
+bracket-matching=true
+display-line-numbers=true
+editor-font='FiraCode Nerd Font Mono 12'
+scheme='oblivion'
+tabs-size=4
+use-default-font=false
+wrap-last-split-mode='word'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/mutter]
+edge-tiling=true
+experimental-features=['scale-monitor-framebuffer', 'kms-modifiers']
+overlay-key='Super_L'
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+show-create-link=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+
+[org/gnome/portal/filechooser/com.usebottles.bottles]
+last-folder-path='/home/xero/Downloads/Generals Zero Hour [DODI Repack]'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=6.0
+night-light-temperature=uint32 4431
+
+[org/gnome/shell]
+always-show-log-out=true
+disable-extension-version-validation=true
+disabled-extensions=['gnome-ui-tune@itstime.tech']
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'pop-shell@system76.com', 'appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'widgets@aylur', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'rounded-window-corners@yilozt', 'dash-animator@icedman.github.com']
+favorite-apps=['chromium.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop', 'gnome-system-monitor.desktop', 'codium.desktop', 'godot.desktop', 'blender.desktop', 'org.keepassxc.KeePassXC.desktop', 'com.usebottles.bottles.desktop']
+welcome-dialog-last-shown-version='43.2'
+
+[org/gnome/shell/extensions/aylurs-widgets]
+background-clock=false
+battery-bar=true
+dash-board=false
+dash-links-names=['reddit', 'youtube', 'gmail', 'twitter', 'github']
+dash-links-urls=['https://www.reddit.com/', 'https://www.youtube.com/', 'https://www.gmail.com/', 'https://twitter.com/', 'https://www.github.com/']
+notification-indicator=false
+workspace-indicator-offset=1
+
+[org/gnome/shell/extensions/dash-to-dock]
+animate-show-apps=true
+app-hotkey-1=@as []
+app-hotkey-2=@as []
+app-hotkey-3=@as []
+app-hotkey-4=@as []
+app-hotkey-5=@as []
+app-hotkey-6=@as []
+app-hotkey-7=@as []
+app-hotkey-8=@as []
+app-hotkey-9=@as []
+apply-custom-theme=false
+autohide=true
+autohide-in-fullscreen=true
+background-opacity=0.11
+custom-background-color=false
+custom-theme-shrink=false
+customize-alphas=true
+dash-max-icon-size=27
+disable-overview-on-startup=true
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+force-straight-corner=false
+height-fraction=1.0
+hot-keys=false
+icon-size-fixed=false
+intellihide=true
+intellihide-mode='ALL_WINDOWS'
+isolate-monitors=true
+isolate-workspaces=true
+max-alpha=0.80000000000000004
+min-alpha=0.39000000000000001
+multi-monitor=true
+preferred-monitor=-2
+preferred-monitor-by-connector='DP-3'
+preview-size-scale=0.0
+running-indicator-style='DOTS'
+show-apps-at-top=true
+show-favorites=true
+show-mounts=false
+show-running=true
+show-show-apps-button=false
+show-trash=true
+transparency-mode='FIXED'
+
+[org/gnome/shell/extensions/gnome-ui-tune]
+hide-search=false
+
+[org/gnome/shell/extensions/pop-shell]
+gap-inner=uint32 0
+gap-outer=uint32 0
+hint-color-rgba='rgb(0,135,135)'
+show-title=true
+tile-by-default=false
+
+[org/gnome/shell/extensions/rounded-window-corners]
+custom-rounded-corner-settings=@a{sv} {}
+global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint32 1>, 'top': <uint32 1>, 'bottom': <uint32 1>}>, 'keep_rounded_corners': <{'maximized': <false>, 'fullscreen': <false>}>, 'border_radius': <uint32 12>, 'smoothing': <uint32 0>}
+settings-version=uint32 5
+
+[org/gnome/shell/extensions/user-theme]
+name='WhiteSur-Dark-nord'
+
+[org/gnome/shell/keybindings]
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+switch-to-application-5=@as []
+switch-to-application-6=@as []
+switch-to-application-7=@as []
+switch-to-application-8=@as []
+switch-to-application-9=@as []
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(23,20,33)'
+bold-is-bright=true
+cursor-shape='underline'
+custom-command=''
+default-size-columns=110
+default-size-rows=30
+font='FiraCode Nerd Font Mono 10'
+foreground-color='rgb(208,207,204)'
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+visible-name='CachyOS'
+
+[org/gnome/tweaks]
+show-extensions-notice=false
+
+[org/gtk/Settings/FileChooser]
+sort-directories-first=true
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=190
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(873, 381)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=185
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(344, 81)
+window-size=(1231, 902)
+
+[org/nemo/preferences]
+show-hidden-files=true
+
+[org/nemo/window-state]
+geometry='800x550+45+29'
+maximized=false
+sidebar-bookmark-breakpoint=5
+start-with-sidebar=true
+
+[system/proxy]
+mode='none'
