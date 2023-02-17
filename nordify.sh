@@ -1,6 +1,6 @@
 
 
-sudo pacman -S --needed wget dconf sassc gtk-engines gtk-engine-murrine sudo git typescript make
+sudo pacman -S --needed wget dconf sassc gtk-engines gtk-engine-murrine sudo git typescript make ttf-firacode-nerd
 
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 # sudo rm -rf /usr/share/gnome-shell/extensions/*
@@ -25,7 +25,8 @@ cd ~
 wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/whitesur-nord-custom
 dconf load / < whitesur-nord-custom
 rm ./whitesur-nord-custom
-cd ~/Downloads
-wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/10806048.jpg
-gsettings set org.gnome.desktop.background picture-uri file:///$HOME/Downloads/10806048.jpg
+sudo mkdir /usr/share/wallpaper
+cd /usr/share/wallpaper
+sudo wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/10806048.jpg
+gsettings set org.gnome.desktop.background picture-uri file:////usr/share/wallpaper/10806048.jpg
 
