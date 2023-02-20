@@ -26,8 +26,8 @@ cd ~
 wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/whitesur-nord-custom
 dconf load / < whitesur-nord-custom
 rm ./whitesur-nord-custom
-sudo mkdir /usr/share/wallpaper
-cd /usr/share/wallpaper
+
+cd ~
 sudo wget https://raw.githubusercontent.com/dr-nemesis-96/whitesur-nord-custom/main/10806048.jpg
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/wallpaper/10806048.jpg
 
