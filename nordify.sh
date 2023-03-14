@@ -2,7 +2,7 @@ if command -v pacman >/dev/null 2>&1; then
     sudo pacman -S --needed wget dconf sassc gtk-engines gtk-engine-murrine git typescript make ttf-firacode-nerd
 else if command -v apt >/dev/null 2>&1; then
         sudo apt upgade && sudo apt dist-upgrade -y && sudo apt upgrade -y 
-        sudo apt install sassc libglib2.0-dev libxml2-utils glib2-devel gtk2-engines-murrine imagemagick dialog optipng inkscape
+        sudo apt install sassc libglib2.0-dev libxml2-utils glib2-devel gtk2-engines-murrine imagemagick dialog optipng inkscape dconf
     fi
 fi
 
